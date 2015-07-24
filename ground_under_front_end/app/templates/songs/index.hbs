@@ -1,9 +1,0 @@
-<h4>Songs index page</h4>
-
-{{outlet}}
-
-<ul>
-  {{#each model as |song|}}
-    <li>{{link-to song.name "songs.show" song}}</li>
-  {{/each}}
-</ul>
